@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // version 2:
 const teachingTeam = ['Leo', 'Kirti', 'PJ', 'Gemma', 'James', 'Hello', 'P'];
 
@@ -16,19 +15,3 @@ for (member of teachingTeam) {
     }
 }
 console.log(result);
-=======
-const teachingTeam = ['Leo', 'Kirti', 'PJ', 'Gemma', 'James', 'Hello', 'P'];
-
-let lengthOfLongestName = 0;
-
-for (let member of teachingTeam) {
-    if (member.length > lengthOfLongestName)
-        lengthOfLongestName = member.length;
-}
-
-// scan 2: display names of that longest length.
-for (let member of teachingTeam) {
-    if (member.length === lengthOfLongestName)
-        console.log(member);
-}
->>>>>>> q3
